@@ -1,24 +1,77 @@
 {
-  "last_updated": "2026-04-21T19:03:34.093449+00:00",
+  "last_updated": "2026-04-22T07:56:19.952994+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
-      "runs_with_data": 5,
-      "total_workflow_runs": 30,
-      "total_success": 30,
+      "runs_with_data": 6,
+      "total_workflow_runs": 36,
+      "total_success": 36,
       "total_failure": 0,
       "success_rate": 100.0
     },
     "last_30_days": {
-      "days": 12,
-      "runs_with_data": 5,
-      "total_workflow_runs": 30,
-      "total_success": 30,
+      "days": 13,
+      "runs_with_data": 6,
+      "total_workflow_runs": 36,
+      "total_success": 36,
       "total_failure": 0,
       "success_rate": 100.0
     }
   },
   "history": [
+    {
+      "date": "2026-04-22",
+      "orchestrator_ran": true,
+      "orchestrator_status": "pending",
+      "orchestrator_url": "https://github.com/amdee/tensordict/actions/runs/24767027858",
+      "orchestrator_run_id": 24767027858,
+      "workflows": {
+        "test-linux.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/amdee/tensordict/actions/runs/24767027858/job/72463680498",
+          "display_name": "Linux Tests"
+        },
+        "test-macos.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/amdee/tensordict/actions/runs/24767027858/job/72463679716",
+          "display_name": "MacOS Tests"
+        },
+        "test-rl-gpu.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/amdee/tensordict/actions/runs/24767027858/job/72463679865",
+          "display_name": "RL GPU Tests"
+        },
+        "lint.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/amdee/tensordict/actions/runs/24767027858/job/72463679648",
+          "display_name": "Lint"
+        },
+        "docs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/amdee/tensordict/actions/runs/24767027858/job/72463679632",
+          "display_name": "Documentation"
+        },
+        "benchmarks.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/amdee/tensordict/actions/runs/24767027858/job/72463679553",
+          "display_name": "Benchmarks"
+        }
+      },
+      "summary": {
+        "total": 6,
+        "success": 6,
+        "failure": 0,
+        "skipped": 0,
+        "other": 0,
+        "success_rate": 100.0
+      }
+    },
     {
       "date": "2026-04-21",
       "orchestrator_ran": true,
