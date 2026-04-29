@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-29T08:25:14.135883+00:00",
+  "last_updated": "2026-04-29T19:15:07.440332+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -22,7 +22,7 @@
     {
       "date": "2026-04-29",
       "orchestrator_ran": true,
-      "orchestrator_status": "pending",
+      "orchestrator_status": "queued",
       "orchestrator_url": "https://github.com/amdee/tensordict/actions/runs/25098533030",
       "orchestrator_run_id": 25098533030,
       "workflows": {
