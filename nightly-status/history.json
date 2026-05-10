@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-05-10T08:01:23.195179+00:00",
+  "last_updated": "2026-05-10T18:52:45.046799+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
-      "runs_with_data": 6,
-      "total_workflow_runs": 30,
-      "total_success": 30,
+      "runs_with_data": 7,
+      "total_workflow_runs": 36,
+      "total_success": 36,
       "total_failure": 0,
       "success_rate": 100.0
     },
     "last_30_days": {
       "days": 30,
-      "runs_with_data": 22,
-      "total_workflow_runs": 126,
-      "total_success": 126,
+      "runs_with_data": 23,
+      "total_workflow_runs": 132,
+      "total_success": 132,
       "total_failure": 0,
       "success_rate": 100.0
     }
@@ -21,16 +21,55 @@
   "history": [
     {
       "date": "2026-05-10",
-      "orchestrator_ran": false,
-      "orchestrator_status": "not_run",
-      "orchestrator_url": null,
-      "workflows": {},
+      "orchestrator_ran": true,
+      "orchestrator_status": "queued",
+      "orchestrator_url": "https://github.com/amdee/tensordict/actions/runs/25623741569",
+      "orchestrator_run_id": 25623741569,
+      "workflows": {
+        "test-linux.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/amdee/tensordict/actions/runs/25623741569/job/75214957661",
+          "display_name": "Linux Tests"
+        },
+        "test-macos.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/amdee/tensordict/actions/runs/25623741569/job/75214957621",
+          "display_name": "MacOS Tests"
+        },
+        "test-rl-gpu.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/amdee/tensordict/actions/runs/25623741569/job/75214957750",
+          "display_name": "RL GPU Tests"
+        },
+        "lint.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/amdee/tensordict/actions/runs/25623741569/job/75214957388",
+          "display_name": "Lint"
+        },
+        "docs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/amdee/tensordict/actions/runs/25623741569/job/75214957587",
+          "display_name": "Documentation"
+        },
+        "benchmarks.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/amdee/tensordict/actions/runs/25623741569/job/75214957243",
+          "display_name": "Benchmarks"
+        }
+      },
       "summary": {
-        "total": 0,
-        "success": 0,
+        "total": 6,
+        "success": 6,
         "failure": 0,
         "skipped": 0,
-        "success_rate": null
+        "other": 0,
+        "success_rate": 100.0
       }
     },
     {
