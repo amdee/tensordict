@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10T19:19:06.167832+00:00",
+  "last_updated": "2026-07-11T08:01:22.770285+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -19,6 +19,59 @@
     }
   },
   "history": [
+    {
+      "date": "2026-07-11",
+      "orchestrator_ran": true,
+      "orchestrator_status": "pending",
+      "orchestrator_url": "https://github.com/amdee/tensordict/actions/runs/29145442778",
+      "orchestrator_run_id": 29145442778,
+      "workflows": {
+        "test-linux.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/amdee/tensordict/actions/runs/29145442778/job/86526106539",
+          "display_name": "Linux Tests"
+        },
+        "test-macos.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/amdee/tensordict/actions/runs/29145442778/job/86526105969",
+          "display_name": "MacOS Tests"
+        },
+        "test-rl-gpu.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/amdee/tensordict/actions/runs/29145442778/job/86526105924",
+          "display_name": "RL GPU Tests"
+        },
+        "lint.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/amdee/tensordict/actions/runs/29145442778/job/86526105971",
+          "display_name": "Lint"
+        },
+        "docs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/amdee/tensordict/actions/runs/29145442778/job/86526105961",
+          "display_name": "Documentation"
+        },
+        "benchmarks.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/amdee/tensordict/actions/runs/29145442778/job/86526105921",
+          "display_name": "Benchmarks"
+        }
+      },
+      "summary": {
+        "total": 6,
+        "success": 6,
+        "failure": 0,
+        "skipped": 0,
+        "other": 0,
+        "success_rate": 100.0
+      }
+    },
     {
       "date": "2026-07-10",
       "orchestrator_ran": true,
@@ -4529,20 +4582,6 @@
     },
     {
       "date": "2026-04-13",
-      "orchestrator_ran": false,
-      "orchestrator_status": "not_run",
-      "orchestrator_url": null,
-      "workflows": {},
-      "summary": {
-        "total": 0,
-        "success": 0,
-        "failure": 0,
-        "skipped": 0,
-        "success_rate": null
-      }
-    },
-    {
-      "date": "2026-04-12",
       "orchestrator_ran": false,
       "orchestrator_status": "not_run",
       "orchestrator_url": null,
